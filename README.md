@@ -56,5 +56,5 @@ Similarly, The provided image exhibits a set of 49 randomly chosen **IDC positiv
 
 Presented below is the comprehensive **Histopathological Image**, revealing the entire breast tissue. This image has been formed by merging all the patches from the patient. Furthermore, a mask has been employed to accentuate the cancerous tissues, which are distinctly marked in **green** color.
 
-<img src="https://github.com/MUmairAB/Breast-Cancer-Detection-using-CNNs-in-TensorFlow/blob/main/Images/Complete%20Histopathological%20image%20of%20breast.png" style="height: 890px; width:794px;"/>
+<img src="https://github.com/MUmairAB/Breast-Cancer-Detection-using-CNNs-in-TensorFlow/blob/main/Images/Complete%20Histopathological%20image%20of%20breast.png" style="height: 1030px; width: 2002px;"/>
 
