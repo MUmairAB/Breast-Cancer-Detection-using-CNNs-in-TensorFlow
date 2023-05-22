@@ -1,6 +1,6 @@
 # Breast Cancer Detection using CNNs in TensorFlow
 
-This project uses Convolutional Neural Network (CNN) for Breast Cancer detection (a classification problem). 
+In this project, a Convolutional Neural Network (CNN) is employed for the purpose of detecting Breast Cancer. The algorithm takes patches of **Histopathological Images** of patients' breast tissues and utilizes CNNs to ascertain whether the breast tissues within the image patch contain **Invasive Ductal Carcinoma** (**IDC**) or not. By analyzing the individual patches instead of the entire breast image, our model enables precise detection of cancer tissues at a localized level.
 
 ## Stats about breast cancer
 
@@ -9,7 +9,6 @@ According to the World Health Organization (WHO), in 2020 alone, there were [2.3
 Worldwide, female breast cancer is the [fifth](https://www.cancer.net/cancer-types/breast-cancer/statistics#:~:text=It%20is%20estimated%20that%2043%2C700,world%20died%20from%20breast%20cancer.) leading cause of death. 
 
 ## Introduction
-
 
 As stated by [Pamela Wright](https://www.hopkinsmedicine.org/health/conditions-and-diseases/breast-cancer/invasive-ductal-carcinoma-idc), the medical director of the Breast Center at Johns Hopkins, **Invasive Ductal Carcinoma** (**IDC**), also referred to as **infiltrating ductal carcinoma**, is the predominant type of breast cancer. It represents 80% of all breast cancer diagnoses. For further information about IDC, please refer to this [article](https://www.breastcancer.org/types/invasive-ductal-carcinoma). In the context of this project, we have developed a classification model based on Convolutional Neural Networks (CNNs) using TensorFlow. The model utilizes **Histopathology Images** of patients to classify whether they have breast cancer or not!
 
@@ -35,4 +34,6 @@ For example:
 - "u" is the patient ID (10253_idx5), 
 - "X" is the x-coordinate of where this patch was cropped from, 
 - "Y" is the y-coordinate of where this patch was cropped from, and 
-- "C" indicates the class where 0 is non-IDC and 1 is IDC. 
+- "C" indicates the class where 0 is non-IDC and 1 is IDC.
+
+## Images
