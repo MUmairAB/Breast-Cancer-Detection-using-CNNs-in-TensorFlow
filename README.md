@@ -42,12 +42,19 @@ The following set of images are generated in this project.
 
 **Normal Tissues**
 
-The image below displays a collection of 49 randomly selected IDC negative image patches, i.e., normal tissues. Each image is labeled with the respective "patient id" at the top.
+The image below displays a collection of 49 randomly selected **IDC negative** image patches, i.e., normal tissues. Each image is labeled with the respective "patient id" at the top.
 
 <img src="https://github.com/MUmairAB/Breast-Cancer-Detection-using-CNNs-in-TensorFlow/blob/main/Images/Random%20samples%20of%20healthy%20tissues.png" style="height: 890px; width:794px;"/>
 
 **Cancer Tissues**
 
-Similarly, The provided image exhibits a set of 49 randomly chosen IDC positive image patches, which correspond to cancer tissues. Each image in the collection is accompanied by the corresponding "patient id" label positioned at the top.
+Similarly, The provided image exhibits a set of 49 randomly chosen **IDC positive** image patches, which correspond to cancer tissues. Each image in the collection is accompanied by the corresponding "patient id" label positioned at the top.
 
 <img src="https://github.com/MUmairAB/Breast-Cancer-Detection-using-CNNs-in-TensorFlow/blob/main/Images/Random%20samples%20of%20cancer%20tissues.png" style="height: 890px; width:794px;"/>
+
+**Complete Histopathological image of breast**
+
+Presented below is the comprehensive **Histopathological Image**, revealing the entire breast tissue. This image has been formed by merging all the patches from the patient. Furthermore, a mask has been employed to accentuate the cancerous tissues, which are distinctly marked in **green** color.
+
+<img src="https://github.com/MUmairAB/Breast-Cancer-Detection-using-CNNs-in-TensorFlow/blob/main/Images/Complete%20Histopathological%20image%20of%20breast.png" style="height: 890px; width:794px;"/>
+
