@@ -1,5 +1,7 @@
 # Breast Cancer Detection using CNNs in TensorFlow
 
+**The model has been deployed on [HuggingFace Spaces](https://huggingface.co/spaces/MUmairAB/BreastCancerDetector-app), and a user-friendly web-based graphical user interface (GUI) has been developed using Gradio. Additionally, the model can also be employed in the Cloud through the "Hosted inference API" tab provided by [HuggingFace](https://huggingface.co/MUmairAB/Breast_Cancer_Detector)**
+
 In this project, a Convolutional Neural Network (CNN) is employed for the purpose of detecting Breast Cancer. The algorithm takes patches of **Histopathological Images** of patients' breast tissues and utilizes CNNs to ascertain whether the breast tissues within the image patch contain **Invasive Ductal Carcinoma** (**IDC**) or not. By analyzing the individual patches instead of the entire breast image, our model enables precise detection of cancer tissues at a localized level.
 
 ## Stats about breast cancer
